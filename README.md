@@ -5,14 +5,25 @@
 This is a server side project using node js express and mongoose. User is able to post and get products.
 
 
-To run this project
+## How do I run the demos locally?
+## Clone this repo
+```
+git clone git@github.com:Massguy/pww-tech.git
+```
+### Install dependencies
+```
+npm install
+or
 
-comment out the files in gitignore
-Then
+yarn install
+```
 
+### create your own .env file then uncomment gitignore file
 
-## npm run dev
+###  Run the app
+```
+npm run dev
+or
 
-To test this project 
-
-## npm test
+yarn run dev
+```
