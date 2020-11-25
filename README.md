@@ -20,6 +20,12 @@ yarn install
 
 ### create your own .env file then uncomment gitignore file
 
+```
+PORT=3001
+MONGODB_URI=mongodb+srv://dbUser:dbUser@cluster0.mzeoz.mongodb.net/pww-db?w=majority
+MONGODB_TEST_URI=mongodb+srv://dbUser:dbUser@cluster0.mzeoz.mongodb.net/pww-db-test?w=majority
+```
+
 ###  Run the app
 ```
 npm run dev
